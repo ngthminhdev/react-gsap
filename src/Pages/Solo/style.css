@@ -1,0 +1,83 @@
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section #title {
+  position: relative;
+}
+section #bg_1 {
+  transform-origin: 49.7% 69%;
+}
+section #man {
+  transform-origin: 50% 100%;
+  visibility: hidden;
+  opacity: 1;
+}
+section #bg_1_smoke {
+  opacity: 1;
+}
+section #bg_2 {
+  transform-origin: 50% 100%;
+}
+section #text {
+  position: relative;
+  color: #fff;
+  font-size: 10vw;
+}
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to top, #000, transparent);
+  z-index: 10;
+}
+section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to bottom, #000, transparent);
+  z-index: 10;
+}
+section #man_1 {
+  -o-object-fit: none;
+     object-fit: none;
+}
+section #load_4 {
+  transform-origin: 30% 0%;
+}
+section #load_3 {
+  transform-origin: 90% 100%;
+}
+
+.section {
+  position: relative;
+  padding: 100px;
+  text-align: justify;
+  color: #20496a;
+}
+.section h2 {
+  font-size: 3.5em;
+  margin-bottom: 50px;
+}
+.section p {
+  font-size: 1.2em;
+}/*# sourceMappingURL=style.css.map */

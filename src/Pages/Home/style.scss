@@ -1,0 +1,52 @@
+#section {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    // flex-direction: column;
+    // align-items: center;
+    perspective: 1000px;
+
+    .panel {
+        position: absolute;
+        top: 50px;
+        left: 500px;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        transform-origin: center;
+        opacity: 1;
+    }
+
+    .panel-r {
+        position: absolute;
+        top: 20px;
+        right: 500px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        transform-origin: center;
+    }
+
+    .e {
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    .a {
+        background: blue;
+    }
+
+    .b {
+        background: red;
+    }
+    .c {
+        background: yellow;
+    }
+    .d {
+        background: pink;
+    }
+    
+}

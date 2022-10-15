@@ -1,0 +1,43 @@
+#section {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  perspective: 1000px;
+}
+#section .panel {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  transform-origin: center;
+  opacity: 1;
+}
+#section .panel-r {
+  position: absolute;
+  top: 20px;
+  right: 500px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  transform-origin: center;
+}
+#section .e {
+  width: 100vw;
+  height: 100vh;
+}
+#section .a {
+  background: blue;
+}
+#section .b {
+  background: red;
+}
+#section .c {
+  background: yellow;
+}
+#section .d {
+  background: pink;
+}/*# sourceMappingURL=style.css.map */
